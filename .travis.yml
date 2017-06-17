@@ -12,18 +12,19 @@ services:
 - docker
 script:
 - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD; export REPO_UBUNTU_1404="ansible_ubuntu_1404";
-  export ANSIBLE_VERSION=$(docker run $DOCKER_USERNAME/$REPO_UBUNTU_1404 /bin/bash
-  -c "ansible --version"|head -1 |awk '{print $2}'); echo "ANSIBLE_VERSION=${ANSIBLE_VERSION}";
-  export NEW_REPO_UBUNTU_1404="${REPO_UBUNTU_1404}:ansible_${ANSIBLE_VERSION}"; echo
-  "NEW_REPO_UBUNTU_1404=${NEW_REPO_UBUNTU_1404}"; docker build -t $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1404
-  -f ubuntu/trusty_1404/Dockerfile .; export REPO_UBUNTU_1604="ansible_ubuntu_1604";
-  export ANSIBLE_VERSION=$(docker run $DOCKER_USERNAME/$REPO_UBUNTU_1604 /bin/bash
-  -c "ansible --version"|head -1 |awk '{print $2}'); echo "ANSIBLE_VERSION=${ANSIBLE_VERSION}";
-  export NEW_REPO_UBUNTU_1604="${REPO_UBUNTU_1604}:ansible_${ANSIBLE_VERSION}"; echo
-  "NEW_REPO_UBUNTU_1604=${NEW_REPO_UBUNTU_1604}"; docker build -t $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1604
-  -f ubuntu/xenial_1604/Dockerfile .; docker images; docker ps -a
+  export ANSIBLE_VERSION=$(docker run $DOCKER_USERNAME/$REPO_UBUNTU_1404 /bin/bash -c "ansible --version"|head -1 |awk '{print $2}');
+  echo "ANSIBLE_VERSION=${ANSIBLE_VERSION}";
+  export NEW_REPO_UBUNTU_1404="${REPO_UBUNTU_1404}:ansible_${ANSIBLE_VERSION}";
+  echo "NEW_REPO_UBUNTU_1404=${NEW_REPO_UBUNTU_1404}"; docker build -t $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1404 -f ubuntu/trusty_1404/Dockerfile .;
+  export REPO_UBUNTU_1604="ansible_ubuntu_1604";
+  export ANSIBLE_VERSION=$(docker run $DOCKER_USERNAME/$REPO_UBUNTU_1604 /bin/bash -c "ansible --version"|head -1 |awk '{print $2}');
+  echo "ANSIBLE_VERSION=${ANSIBLE_VERSION}";
+  export NEW_REPO_UBUNTU_1604="${REPO_UBUNTU_1604}:ansible_${ANSIBLE_VERSION}";
+  echo "NEW_REPO_UBUNTU_1604=${NEW_REPO_UBUNTU_1604}"; docker build -t $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1604 -f ubuntu/xenial_1604/Dockerfile .;
+  docker images;
+  docker ps -a
 after_success:
 - curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1404/trigger/$DOCKER_TRIGGER_UBUNTU_1404/;
-  docker push $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1404; curl --data build=true -X POST
-  https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1604/trigger/$DOCKER_TRIGGER_UBUNTU_1604/;
+  docker push $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1404;
+  curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1604/trigger/$DOCKER_TRIGGER_UBUNTU_1604/;
   docker push $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1604

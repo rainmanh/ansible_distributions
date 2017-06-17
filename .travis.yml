@@ -9,33 +9,17 @@ env:
   - secure: sgHyhIR42OT8CAEqaqxsY1oimRsPcQroCByW+h2DlHjtuaCTqeb1X8U6FRvhEnEQLDWaqXCyeOW9rMUoxVOpOAKkHlvKedp0OSeyvFVpd3jwVTyq+5Qj/QqtWV0hwKSVlZyo6emq79yO/4gUW5tuNE/vu+hG1fcug3rDoXjosvnYC/18UoVCnJcyFL4zm3mNHp4WiXmUc9kTMwzEq50kRTkdz/kr4I3EKAQS3zi9JWaCNoI3bjo/BBhWGCfgT0x90ee245dasDD1LHBGTNdcnl5JVJF5WWUZsyLciZsCbKdOdrVT0sNe8/JC+OkM4w16FwXAilJEIt5cBBkn+39DZY4mxFg+iNx0fKDSJKYRa/+GShkfnaMCfdZpTDL79seJamv3dSp6YtpUJ8T/Ly4Vz9ShzdSt/tgEaV0jjqlBoIx0Wq9nJnW5NMnX8O+WHnkMkyKbmH8ySOb54vyyLMmszaYP7tggOSQtfVrzrGShwvzeyL07MKdzpmt2SzWwfKKwbTX3k8goo8WJs0WCy2KFR/2owdTUP0bInSWIDIk07icKD0lT6eesLUKYBPBo5chOkO5q4jbpu249YhfzUlRruk8QPEsk9IuiMRTqHlhI5kVEoFAkxiB16Caz7VT6wJ3wasDqV9uUSKTckHW2HMoLGOn9wv8aOCqUoQbkShb0+tI=
   - secure: NK4DhGh8P8XvCvLZfo8XbNLQyQF9NrlnamOeQUJparK+fiKr1wvnoe6JyT+vW0SXwMKHwo5DpHWYnOhLeryGrJSOwiUkFn1Mk3UYTIzBdHtvQiNhgGt3ITyJXlHKHMPnIljH7ypK2RWGUoczO46nVUSJnLKXBaYpMleDcPBOzYjT+BMXcvpilHuyTgsx+Z0VFKZ3cYKwcvlOtczdW/+OXOTQ+UQChfRVIeULcdBGaU8CZBBI6rhL1h8qzEUqLRC6R0pTU/Uwh/IlVfdrwRIKeGkSmHOyt4iDxqTjn17ByrkI8KA9RPK23K9ssbOgvuI6GCWNdcNL4KSBXAwfL/svhGbiXPaVWELCD/0DuVdJR5LDbV/KCTdyJoUIDhDYOJ1LKG+/TsA1eDmmAb7VohXkBpVT7fpPi2ATGoazj+6SwtEwB/IMO1L+HA2kQ7ljY/DsFxBQHelydWm959XnLKpyxCDFfOWCQdgV6RshFkw05re90lz6eNhvM5Ltuf68v4XH1lrwzk753VRvq4PSh/b2rsa3IWEdUK54YX3m+noMH8Coa34pA9dkOZcdx+iQ4oQl+YY207hdp1DfAEuTm44Kq7TIyUKNui9NFygJ0Ct3wGg6W9lHfjBx4Oae+nTNIoOTChWdS7yl9B4RYIQ72KGwd5s0GKWvSjXNLpUwkLM2pt0=
   - secure: o1eVyEux4FEr0tts3UjjuMN+OrO1Dw0Uh+nmfAraoq0tNPuKLAG9aiNnYeEUT/yg75brTAma+3XInXqgxfpzcZ2ylDaSJ9ix0xFadtuWBNjvPnXIMEiqY29ZZ5Bb0ZjlMtXPOC3J56mS9WZKqwChvC8i8RAy/edBR2N8pIZ3rHf56N35rXkHOALjDpjIZnp0DFV0B+Wbv1HvQGTvUjt1bNn7vzudDimn/cA8IpqpYuEzGZmvNNWwXOecDduBa/nfbwoQltB3HnKa1mdfQej6t/NGot4TAV2zp7nfUqqNGsoLzYNIvVZvW/TOq11Uem00LYkes40NhlTW9JK43VW8u4EaVo1Ru3Bl9e/jFbwQah45AocLoJK1LTLcLVC+MNy1E4eTOENsK9aZSZmjZbg6CHnHJrQ1ApUBycVWuCR2CnVXkVuHSYgKYs014VnQqqzgIl56LmoG+iuLTVlCXjCzPqR6e1+E/ON/8JecdZU89OO8Sh1oAL08KXEqzpmfsz5zFR4jHaBJijBQvj2vhg0W0P+Kvazjvz0Up5Qs/YaeWt3HEs3yeu8eSVhHTUr7R82EqxRa6ytV/U+T/moH5WBgc+BXzcip4EQ1ymGVo6ROgkIrH7qKYG+J+LK4X02NuRk9VZpS5PY1hRuCC1/8DPARYYv0ZJR0zjgZ877xJKCaHDI=
+  - secure: LLkBmRd36PPYKkmhRqUAxlFPSBF4RYhdOBnPoNmZgTbdcJSd3v5GAIjS/qRjn2kfJP+83ckLT0VKDGyAZkGS8S/L9cWnXtIeNc/QLC4CDjuOoaUDKFEdsV+LZN9RvPrxW1oInVVhvoJ3JmSOgLPwLc+jVVFGXNNbHDv/oX+yD+vAt4qNo4bx39OK2ZuVDIco4cIr+hEBeJPeB8Uhnf3l7jeocUuj7yFv0F7wp+qH+0tqA2/auPdjKnP4hoDcIPLt19sRJzC137ke9cAb/xqupnyyZbgusmcYemass2MVx8+fRXki2VdAequXaYSmSI9ZEvepufPAlz5fdr+fJ9lV7vphKz9xyZxpUlTZXjdr1JpXURpzoqQxN2tKhJ+ERgo+QSnHl0L5w8xzBakO8AuOiGhe/+iEokOdIrnQIKRpRRdVWfPpjk2ZJGxk1wW3iSfF+FDkxrdUqFJOx9Fe7dvr1rPq+iW2ZJIZzagH74JM7fDOLLkXr1gwe88mocLcpUqsMQtuDiEzfL1wzC5aXYc9B5AluaU3UXHi3OfLtdBc0TKuHyN2Z6y9e8B8sjncptZ80D0MBBmrGxbQUoacjYGWc0rPhpvlIODFtV2WBlbe6ditVUtv8RMoB2FsHptgCq3h2jwItksTHKAdu7CjJ/EiEPjpSJSEp784wBtyJfHMtmk=
 services:
 - docker
 script:
-- docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD; export REPO_UBUNTU_1404="ansible_ubuntu_1404";
-  export ANSIBLE_VERSION_UBUNTU_1404=$(docker run $DOCKER_USERNAME/$REPO_UBUNTU_1404 /bin/bash -c "ansible --version"|head -1 |awk '{print $2}');
-  echo "ANSIBLE_VERSION_UBUNTU_1404=${ANSIBLE_VERSION_UBUNTU_1404}";
-  export NEW_REPO_UBUNTU_1404="${REPO_UBUNTU_1404}:ansible_${ANSIBLE_VERSION_UBUNTU_1404}";
-  echo "NEW_REPO_UBUNTU_1404=${NEW_REPO_UBUNTU_1404}";
-  docker build -t $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1404 -f ubuntu/trusty_1404/Dockerfile .;
-  export REPO_UBUNTU_1604="ansible_ubuntu_1604";
-  export ANSIBLE_VERSION_UBUNTU_1604=$(docker run $DOCKER_USERNAME/$REPO_UBUNTU_1604 /bin/bash -c "ansible --version"|head -1 |awk '{print $2}');
-  echo "ANSIBLE_VERSION_UBUNTU_1604=${ANSIBLE_VERSION_UBUNTU_1604}";
-  export NEW_REPO_UBUNTU_1604="${REPO_UBUNTU_1604}:ansible_${ANSIBLE_VERSION_UBUNTU_1604}";
-  echo "NEW_REPO_UBUNTU_1604=${NEW_REPO_UBUNTU_1604}";
-  docker build -t $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1604 -f ubuntu/xenial_1604/Dockerfile .;
-  export REPO_UBUNTU_1704="ansible_ubuntu_1704";
-  export ANSIBLE_VERSION_UBUNTU_1704=$(docker run $DOCKER_USERNAME/$REPO_UBUNTU_1704 /bin/bash -c "ansible --version"|head -1 |awk '{print $2}');
-  echo "ANSIBLE_VERSION_UBUNTU_1704=${ANSIBLE_VERSION_UBUNTU_1704}";
-  export NEW_REPO_UBUNTU_1704="${REPO_UBUNTU_1704}:ansible_${ANSIBLE_VERSION_UBUNTU_1704}";
-  echo "NEW_REPO_UBUNTU_1704=${NEW_REPO_UBUNTU_1704}";
-  docker build -t $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1704 -f ubuntu/zesty_1704/Dockerfile .;
-  docker images;
-  docker ps -a
+- scripts/travis_ci_docker.sh
 after_success:
 - curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1404/trigger/$DOCKER_TRIGGER_UBUNTU_1404/;
   docker push $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1404;
   curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1604/trigger/$DOCKER_TRIGGER_UBUNTU_1604/;
   docker push $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1604;
   curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1704/trigger/$DOCKER_TRIGGER_UBUNTU_1704/;
-  docker push $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1704
+  docker push $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1704;
+  curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_centos_7/trigger/$DOCKER_TRIGGER_CENTOS_7/;
+  docker push $DOCKER_USERNAME/$NEW_REPO_CENTOS_7

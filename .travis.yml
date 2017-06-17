@@ -1,0 +1,29 @@
+sudo: required
+dist: xenial
+group: edge
+language: bash
+env:
+  global:
+  - secure: 1voAGAENQCa2VKGAJKRhjfmPzh1hVW14FmRKlvNn9oOzDMvOeka5tJKEWh1MEicHyq7NshxdHtGzalOXpovIRYylDeSwEMOZdUMYjxnjyiDoI76StbL84b2DNjQk0FtHg0SmbKVpfR/lQvjNY3rsjxBpPzultsTJd65frYZGlbOQtnz+knQCbAYaUj9pjaBPrghlmcu/YTrCTeLpPog1yIlPtTzkPPi8OkbdfX55OeR+bfLZooM+CVprZ0HFFzBQKmbqJOM87/Y6J7ayUUi89LlxnmLKwaJsnRaa9MVDl7J6NZyRB+owRMYaXCpjwmIpv3dTWSYkM7SdfMuK4XHVqg1aEa+B00qj/7F+hvagt1+7qhEw7zjPY8+medfSgWkYOGFDMsjagfAz5X/1FWutcWzblweT0LI/ZeCrsILzTPPLuJV52cR5l6VgYzTGczLnG5w6IfLS4/hJPQp6XjkP4pkMY9U4jGLCPE+Prgk8DDd+KFTQQgbb5KZnaMD3rOBZoH1IKs39D9pb22YK3qLXE/HK8jWgitsYBVVSktpbgMSWyXsAEfGeHHjfB31xPRPYOFJdNWHdVKw4+VNnmSvHJbPaVE5zjS/gXzJPbSlLFEyl2GbjpDdFQwKhm1DqPuKBxO9q7o6V+A5UkkpX9T2JqSqPKO2O10ERAIZ5YtdK/+o=
+  - secure: H5yRhhDNM00s3srtg1iKiFQzf7E+qG9rBQvsMOBctHvyJJCLz/I85JibWhyofGPDADO1AdWeCTASBHVirDD8RDUzhWxsz/iDEmktqXgLFYfIygwqEkL8/SpAfS6v31YYkkSkdirYzXj5kIzQcfl6iNXxNPK7clDEnbCNsSQz+TSCsBmvZn14vNL9kPV4XuTC6fpUKtjXH7uDDBAOaU7KvJQ9T/Lz1QJjjOlW78EOvPi1q4wkQZGBuRIwNe2slolf32HLQUXkUrr2cFunkriPX/2ccNmQpTwIAip1tpOaXpZVJLGLwnXhKnAPFf8U0r6ApEV87kmsPfTRVefn9ifWd/wCDkyxr8CIYaBs+xrxlPlPxQu6NwUbTzqbWedWll2BLD6Wmv1e8/XtHLeM952up/fUmIDWehKQQPFXwlJ508r8K+BZYtQC/Tx/qzRmmDRJ4ZJFrdBJJ/uGDT6bkNmqOuk3QL4IGxd0DYZ58Zqsz/xA+QGChCGdIbtTVTWuELh4ILy4Lb75TfntyyntZ2rjG46VatZRqex+/doD9dLA+K9+JtgNDjcVXWQfQCn2856VX8KzBQZ1KYv8TLT0+6lurOxLPss8U4q5rkpbcDTXZ/9c462t2ml2hMILVKiAJ5E7PToH/PHCVwO27I4I77f2J92PceQ/bWTt4XMvqlNMNSI=
+  - secure: sgHyhIR42OT8CAEqaqxsY1oimRsPcQroCByW+h2DlHjtuaCTqeb1X8U6FRvhEnEQLDWaqXCyeOW9rMUoxVOpOAKkHlvKedp0OSeyvFVpd3jwVTyq+5Qj/QqtWV0hwKSVlZyo6emq79yO/4gUW5tuNE/vu+hG1fcug3rDoXjosvnYC/18UoVCnJcyFL4zm3mNHp4WiXmUc9kTMwzEq50kRTkdz/kr4I3EKAQS3zi9JWaCNoI3bjo/BBhWGCfgT0x90ee245dasDD1LHBGTNdcnl5JVJF5WWUZsyLciZsCbKdOdrVT0sNe8/JC+OkM4w16FwXAilJEIt5cBBkn+39DZY4mxFg+iNx0fKDSJKYRa/+GShkfnaMCfdZpTDL79seJamv3dSp6YtpUJ8T/Ly4Vz9ShzdSt/tgEaV0jjqlBoIx0Wq9nJnW5NMnX8O+WHnkMkyKbmH8ySOb54vyyLMmszaYP7tggOSQtfVrzrGShwvzeyL07MKdzpmt2SzWwfKKwbTX3k8goo8WJs0WCy2KFR/2owdTUP0bInSWIDIk07icKD0lT6eesLUKYBPBo5chOkO5q4jbpu249YhfzUlRruk8QPEsk9IuiMRTqHlhI5kVEoFAkxiB16Caz7VT6wJ3wasDqV9uUSKTckHW2HMoLGOn9wv8aOCqUoQbkShb0+tI=
+  - secure: NK4DhGh8P8XvCvLZfo8XbNLQyQF9NrlnamOeQUJparK+fiKr1wvnoe6JyT+vW0SXwMKHwo5DpHWYnOhLeryGrJSOwiUkFn1Mk3UYTIzBdHtvQiNhgGt3ITyJXlHKHMPnIljH7ypK2RWGUoczO46nVUSJnLKXBaYpMleDcPBOzYjT+BMXcvpilHuyTgsx+Z0VFKZ3cYKwcvlOtczdW/+OXOTQ+UQChfRVIeULcdBGaU8CZBBI6rhL1h8qzEUqLRC6R0pTU/Uwh/IlVfdrwRIKeGkSmHOyt4iDxqTjn17ByrkI8KA9RPK23K9ssbOgvuI6GCWNdcNL4KSBXAwfL/svhGbiXPaVWELCD/0DuVdJR5LDbV/KCTdyJoUIDhDYOJ1LKG+/TsA1eDmmAb7VohXkBpVT7fpPi2ATGoazj+6SwtEwB/IMO1L+HA2kQ7ljY/DsFxBQHelydWm959XnLKpyxCDFfOWCQdgV6RshFkw05re90lz6eNhvM5Ltuf68v4XH1lrwzk753VRvq4PSh/b2rsa3IWEdUK54YX3m+noMH8Coa34pA9dkOZcdx+iQ4oQl+YY207hdp1DfAEuTm44Kq7TIyUKNui9NFygJ0Ct3wGg6W9lHfjBx4Oae+nTNIoOTChWdS7yl9B4RYIQ72KGwd5s0GKWvSjXNLpUwkLM2pt0=
+services:
+- docker
+script:
+- docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD; export REPO_UBUNTU_1404="ansible_ubuntu_1404";
+  export ANSIBLE_VERSION=$(docker run $DOCKER_USERNAME/$REPO_UBUNTU_1404 /bin/bash
+  -c "ansible --version"|head -1 |awk '{print $2}'); echo "ANSIBLE_VERSION=${ANSIBLE_VERSION}";
+  export NEW_REPO_UBUNTU_1404="${REPO_UBUNTU_1404}:ansible_${ANSIBLE_VERSION}"; echo
+  "NEW_REPO_UBUNTU_1404=${NEW_REPO_UBUNTU_1404}"; docker build -t $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1404
+  -f ubuntu/trusty_1404/Dockerfile .; export REPO_UBUNTU_1604="ansible_ubuntu_1604";
+  export ANSIBLE_VERSION=$(docker run $DOCKER_USERNAME/$REPO_UBUNTU_1604 /bin/bash
+  -c "ansible --version"|head -1 |awk '{print $2}'); echo "ANSIBLE_VERSION=${ANSIBLE_VERSION}";
+  export NEW_REPO_UBUNTU_1604="${REPO_UBUNTU_1604}:ansible_${ANSIBLE_VERSION}"; echo
+  "NEW_REPO_UBUNTU_1604=${NEW_REPO_UBUNTU_1604}"; docker build -t $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1604
+  -f ubuntu/xenial_1604/Dockerfile .; docker images; docker ps -a
+after_success:
+- curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1404/trigger/$DOCKER_TRIGGER_UBUNTU_1404/;
+  docker push $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1404; curl --data build=true -X POST
+  https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1604/trigger/$DOCKER_TRIGGER_UBUNTU_1604/;
+  docker push $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1604

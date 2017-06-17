@@ -37,5 +37,5 @@ after_success:
   docker push $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1404;
   curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1604/trigger/$DOCKER_TRIGGER_UBUNTU_1604/;
   docker push $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1604;
-  curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1604/trigger/$DOCKER_TRIGGER_UBUNTU_1704/;
+  curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1704/trigger/$DOCKER_TRIGGER_UBUNTU_1704/;
   docker push $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1704

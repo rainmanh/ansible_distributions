@@ -29,7 +29,7 @@ script:
   echo "ANSIBLE_VERSION_UBUNTU_1704=${ANSIBLE_VERSION_UBUNTU_1704}";
   export NEW_REPO_UBUNTU_1704="${REPO_UBUNTU_1704}:ansible_${ANSIBLE_VERSION_UBUNTU_1704}";
   echo "NEW_REPO_UBUNTU_1704=${NEW_REPO_UBUNTU_1704}";
-  docker build -t $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1704 -f ubuntu/xenial_1704/Dockerfile .;
+  docker build -t $DOCKER_USERNAME/$NEW_REPO_UBUNTU_1704 -f ubuntu/zesty_1704/Dockerfile .;
   docker images;
   docker ps -a
 after_success:

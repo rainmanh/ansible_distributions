@@ -3,8 +3,6 @@
 
 # ansible_distributions
 
-# ansible_ubuntu_1604
-
 This is an automated Docker Image Builder using Travis and offering the latest ansible on Ubuntu and centos:
 
 Ubuntu:

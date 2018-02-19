@@ -18,6 +18,7 @@ script:
 - scripts/travis_ci_docker.sh
 after_success:
 - curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1404/trigger/$DOCKER_TRIGGER_UBUNTU_1404/;
+  curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1604/trigger/$DOCKER_TRIGGER_UBUNTU_1604/;
   curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_ubuntu_1704/trigger/$DOCKER_TRIGGER_UBUNTU_1704/;
   curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_centos_7/trigger/$DOCKER_TRIGGER_CENTOS_7/;
   curl --data build=true -X POST https://registry.hub.docker.com/u/ranmanh/ansible_centos_6/trigger/$DOCKER_TRIGGER_CENTOS_6/

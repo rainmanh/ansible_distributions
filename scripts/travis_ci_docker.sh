@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ubuntu_versions="1404 1604 1704"
+ubuntu_versions="1404 1604 1704 1804 1904"
 centos_versions="6 7"
 
 docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD

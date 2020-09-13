@@ -9,6 +9,8 @@ Ubuntu:
   * 14.04
   * 16.04
   * 17.04
+  * 18.04
+  * 19.04
 
 Centos:
 
@@ -26,6 +28,8 @@ Docker Hub URLs:
   * https://hub.docker.com/r/ranmanh/ansible_ubuntu_1404/
   * https://hub.docker.com/r/ranmanh/ansible_ubuntu_1406/
   * https://hub.docker.com/r/ranmanh/ansible_ubuntu_1704/
+  * https://hub.docker.com/r/ranmanh/ansible_ubuntu_1804/
+  * https://hub.docker.com/r/ranmanh/ansible_ubuntu_1904/
   * https://hub.docker.com/r/ranmanh/ansible_centos_6/
   * https://hub.docker.com/r/ranmanh/ansible_centos_7/
 
@@ -35,6 +39,8 @@ Default (latest Docker pull):
 docker pull ranmanh/ansible_ubuntu_1404
 docker pull ranmanh/ansible_ubuntu_1604
 docker pull ranmanh/ansible_ubuntu_1704
+docker pull ranmanh/ansible_ubuntu_1804
+docker pull ranmanh/ansible_ubuntu_1904
 
 docker pull ranmanh/ansible_centos_6
 docker pull ranmanh/ansible_centos_7
